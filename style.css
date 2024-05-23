@@ -1,0 +1,111 @@
+body {
+    background: grey;
+    color: white;
+    margin:0;
+    font-family: 'Dubai Light', 'Dubai', 'Helvetica', 'Arial', 'Futura', 'Roboto', 'Avenir', sans-serif;
+}
+
+#container {
+    margin:0;
+    width:100%;
+}
+
+.bg1 {
+    padding:4%;
+    background: #57000D;
+    color:white;
+}
+
+.bg2 {
+    padding:4%;
+    background: #1c0c1c;
+    color:white;
+}
+
+.bg3 {
+    padding:4%;
+    background: white;
+    color:black;
+}
+
+.bg4 {
+    padding:4%;
+    background:#7092BE;
+    color:white;
+}
+
+.bg5 {
+    padding:4%;
+    background:#3E46C9;
+    color:white;
+}
+
+.bg5 a, .bg4 a {
+    color:rgb(90, 38, 0);
+}
+
+.bg5 a:visited, .bg4 a:visited {
+    color:#57000D;
+}
+
+.bg6 {
+    padding:4%;
+    background:black;
+    color:white;
+}
+
+.general-flexer-row {
+    display:flex;
+    flex-direction:row;
+}
+
+.general-flexer-column {
+    display:flex;
+    flex-direction:column;
+}
+
+.general-flex-item {
+    flex:1;
+}
+
+.center {
+    text-align:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.f1 {
+    font-size: 3.333em;
+}
+
+.f2 {
+    font-size: 1.5em;
+}
+
+.f3 {
+    font-size: 1.25em;
+}
+
+.f4 {
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .f1 {
+        font-size: 2.917em;
+    }
+
+    .f2 {
+        font-size: 1.125em;
+    }
+
+    .f3 {
+        font-size: 1em;
+    }
+
+    .f4 {
+        font-size: 0.875em;
+    }
+}
